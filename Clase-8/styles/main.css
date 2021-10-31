@@ -1,0 +1,198 @@
+*{
+
+  box-sizing: border-box;
+}
+html{
+  font-size: 14px;
+}
+.wrapper{
+  width:90%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding-left: 3.5rem;
+  padding-right: 3rem;
+  margin-bottom: 1rem;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+li{
+  color:#242A59;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+}
+main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+  color:white;
+}
+main img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin:auto;
+  width: 75%;
+  height:2.5rem;
+  padding: 0 1rem;
+}
+.search input{
+  width: 95%;
+  border: 0;
+  outline: none;
+}
+.container-end{
+  display:flex;
+  justify-content: space-between;
+  width: 75%;
+  margin:0 auto;
+  margin-top: 1.5rem;
+} 
+.container-angular9, 
+.container-python, 
+.container-react, 
+.container-amazon{
+  position: relative;
+}
+.container-python, 
+.container-react, 
+.container-amazon{
+  height:7.45rem;
+  width:100%;
+}
+.container-angular9{
+  width:48.5%;
+  height: 21.625rem;
+}
+.container-section2{
+  width: 48.5%;
+}
+.titulo-frontend{
+  display: flex;
+  position: absolute;
+  width: 4.875rem;
+  height: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  top: 0.625rem;
+  right: 0.625rem;
+  font-size: 12px;
+  line-height: 14px;
+  background: #AD195A;
+  border-radius: 8px;
+}
+#etiqueta-angular-front{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.5rem;
+  right: 7.5rem;
+  border-radius: 8px;
+  position: absolute;
+  background: #AD195A;
+  height:2rem;
+  width:6.3rem;
+  font-size: 18px;
+}
+.etiqueta-back,
+.etiqueta-front,
+.etiqueta-server{
+  display:flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0.5rem;
+  right: 0.9rem;
+  background: #AD195A;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 6rem;
+  height: 1.8rem;
+}
+.etiqueta-back{
+  background: #26A6BE;
+}
+.etiqueta-server{
+  background:#213576;
+}
+
+#tituangular{
+  position:absolute;
+  font-size: 1.5rem;
+  top:25%;
+  left:2%;
+}
+#autor{
+  position: absolute;
+  font-weight: normal;
+  font-size: 13px;
+  left: 0.8125rem;
+  bottom: 0.5rem;
+
+}
+#fecha{
+  position: absolute;
+  font-weight: normal;
+  font-size: 13px;
+  right:7rem;
+  bottom: 0.5rem;
+}
+
+.container-angular9 p{
+  position: absolute;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+  top: 39.5%;
+  left: 1.97%;
+  padding-right: 8rem;
+}
+.container-section2 .container-python,.container-react,.container-amazon{
+  position: relative;
+  margin-bottom: 1.1875rem;
+  height: 6.375rem;
+}
+
+.container-python h3,.container-react h3,.container-amazon h3{
+  position: absolute;
+  font-size: 1rem;
+  
+  top: 1.5rem;
+  left: 1rem;
+}
+.container-python p,.container-react p, .container-amazon p{
+  position: absolute;
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  font-weight: normal;
+  top: 3.125rem;
+  left: 1.0625rem;
+}
+
+
+
+
+

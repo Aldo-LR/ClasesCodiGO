@@ -1,0 +1,55 @@
+/* REGLAS GENERALES */
+
+/* body{
+  background:blue;
+}
+div{
+  padding:20px;
+  margin: 20px;
+  background: red;
+}
+h2{
+  color:white;
+  font-family: arial;
+
+}
+/* REGLAS GENERALES */
+/* .bloque-2{
+  background:orange;
+  border-radius: 20px;
+  text-align: center;*/
+
+  body{
+    color: white;
+    font-size: 13px;
+    font-family: arial;
+
+  }
+
+  h1{
+    font-size:64px;
+  }
+  h2{
+    font-size:36px;
+  }
+  header{
+    background: #00AAB5;
+    text-align: center;
+    padding: 20px;
+  }
+  header a{
+    color: white;
+
+  }
+
+  header .header-logo{
+    font-size:64px;
+    margin-bottom: 20px;
+    display: block;
+
+  }
+
+  .my-skills{
+    background: #7299FE;
+    text-align: center;
+  }

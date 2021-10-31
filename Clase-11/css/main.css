@@ -1,0 +1,26 @@
+main, header, footer {
+  padding: 20px;
+  background: red;
+}
+
+main, header, footer {
+  padding: 20px;
+  background: orange;
+}
+
+/*INTERPOLATION*/
+div {
+  background: url("$url-base/img/logo.png");
+}
+
+/*MIXING*/
+div {
+  padding: 0px;
+  background: red;
+}
+
+div {
+  padding: 20px;
+  background: orange;
+}
+/*# sourceMappingURL=main.css.map */

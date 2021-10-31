@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica;
+    width: 600px;
+    margin:auto;
+    text-align:center;
+}
+
+h3{
+    text-align:left;
+}
+
+.section-one{
+    text-align:center;
+    margin-bottom: 30px;
+}
+.section-two, .section-three, .section-four{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 30px;
+}
+.content{
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom:0px;
+    text-align:justify;
+}
+img{
+    border-radius:5px;
+}
+
+button{
+  background-color: transparent;
+  padding:10px;
+  font-weight: bold;
+  
+  text-align: center;
+  border-radius:5px;
+  width:100px;height:40px
+}

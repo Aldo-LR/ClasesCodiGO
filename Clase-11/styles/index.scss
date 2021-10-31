@@ -1,0 +1,36 @@
+$bg-color:#000;
+$bb-color-white:#ccc;
+$bg-div:#db1;
+body{
+    background-color:$bg-color
+}
+div{
+    color:$bg-div
+}
+
+@mixin theme($theme: "dark"){
+    background-color: $bg-color;
+    color:#fff;
+}
+@mixin alertTheme($color: #28e667, $padding:10px){
+    background-color:$color;
+    color:$color-white;
+    padding: $padding;
+    border:1px solid $bg-color;
+    border-radius:10px;
+
+}
+
+.alerta-succes{
+    @include alertTheme;
+}
+
+.alerta-warning{
+    @include alertTheme($color:#ffc107, $padding:120px);
+}
+.alerta-error{
+    @include alertTheme($color:#ff23, $padding:12px);
+}
+.alerta-error{
+    @include alertTheme($color:#29e700, $padding:12px);
+}

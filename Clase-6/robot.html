@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>ROBOT</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            width: 200px;
+            height:170px;
+            background:#C4C4C4
+;
+            position: relative;
+            left:500px;
+        }
+        .box-body{
+            width: 300px;
+            height:250px;
+            background:#AD1010;
+            position: relative;
+            left:450px;
+        }
+        .box .box-one,
+        .box .box-two,
+        .box .box-three,
+        .box .box-hands1,
+        .box .box-hands2{
+            position: absolute;
+
+            
+        }
+        .box .box-one{
+            left: 40px;
+            top:40px;
+            width:20%;
+            padding: 1.5em;
+            background:red;
+        }
+
+        .box .box-two{
+            left:120px;
+            top:40px;
+            width:20%;
+            padding: 1.5em;
+            background:red;
+        }
+        
+        .box .box-three{
+            right:50px;
+            bottom:20px;
+            width:50%;
+            padding: 1em;
+            background:#AD1010;
+        }
+        .box-body .box-hands1{
+            margin-left: -60px;
+            margin-top:50px;
+            width:190px;
+            height:60px;
+            background:#C4C4C4
+;
+            padding: 1em;
+            position: absolute;
+        }
+
+        .box-body .box-hands2{
+            left:210px;
+            margin-top:40px;
+            height:70px;
+            width:140px;
+            padding: 1.1em;
+            background:#C4C4C4
+;
+            position: absolute;
+
+        }
+        .box-body .box-finger1{
+            left:180px;
+            margin-top:-13px;
+            right:0px;
+            height: 12px;
+            width:25px;
+            padding: 0.1em;
+            background:#CF9729;
+            position: absolute;
+            z-index: 1;
+        }
+        .box-body .box-finger2{
+            left:180px;
+            margin-top:7px;
+            right:0px;
+            height: 12px;
+            width:25px;
+            padding: 0.1em;
+            background:#CF9729;
+            position: absolute;
+            z-index: 1;
+        }
+        .box-body .box-finger3{
+            left:180px;
+            margin-top:27px;
+            right:0px;
+            height: 12px;
+            width:25px;
+            padding: 0.1em;
+            background:#CF9729;
+            position: absolute;
+            z-index: 1;
+        }
+        .box-body .box-finger4{
+            left:-10px;
+            margin-top:-13px;
+            right:0px;
+            height: 12px;
+            width:25px;
+            padding: 0.1em;
+            background:#CF9729;
+            position: absolute;
+            z-index: 1;
+        }
+        .box-body .box-finger5{
+            left:-10px;
+            margin-top:7px;
+            right:0px;
+            height: 12px;
+            width:25px;
+            padding: 0.1em;
+            background:#CF9729;
+            position: absolute;
+            z-index: 1;
+        }
+        .box-body .box-finger6{
+            left:-10px;
+            margin-top:27px;
+            right:0px;
+            height: 12px;
+            width:25px;
+            padding: 0.1em;
+            background:#CF9729;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .box-body .box-leg1{
+            margin-left: 30px;
+            margin-top:200px;
+            width:80px;
+            height:150px;
+            background:#C4C4C4
+;
+            padding: 1em;
+            position: absolute;
+        }
+        .box-body .box-leg2{
+            margin-left: 190px;
+            margin-top:200px;
+            width:80px;
+            height:150px;
+            background:#C4C4C4
+;
+            padding: 1em;
+            position: absolute;
+        }
+        .box-body .box-shoe1{
+            margin-left: -250px;
+            margin-top:330px;
+            width:120px;
+            height:50px;
+            right:175px; 
+            background:#CF9729;
+            padding: 1em;
+            position: absolute;
+
+        }
+        .box-body .box-shoe2{
+            margin-left: -250px;
+            margin-top:330px;
+            width:120px;
+            height:50px;
+            right:10px; 
+            background:#CF9729;
+            padding: 1em;
+            position: absolute;
+
+        }
+
+        header{
+            position:fixed;
+            padding-left: 15px;
+            padding-right: 15px;
+            left: 10px;
+            top:10px;
+            background:blueviolet;
+            
+        }
+        body{
+            padding-top:100px;
+        }
+        h1,h2{
+            color:white;
+        }
+        footer{
+            position:fixed;
+            width: 200px;
+            height: 100px;
+            bottom: 10px;
+            padding-top: 1px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            background:blueviolet;
+        }
+        html{
+            height: 5000px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 > CREADO POR ALR </h1>
+    </header>
+    <div class="box">
+        <div class="box-one">
+            
+        </div>
+        <div class="box-two">
+            
+        </div>
+        <div class="box-three">
+            
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="box-hands1">
+            <div class="box-finger1"></div>
+            <div class="box-finger2"></div>
+            <div class="box-finger3"></div>
+        </div>
+        <div class="box-hands2">
+            <div class="box-finger4"></div>
+            <div class="box-finger5"></div>
+            <div class="box-finger6"></div>
+        </div>
+        <div class="box-leg1" ></div>
+            <div class="box-shoe1"></div>
+        <div class="box-leg2" ></div>
+            <div class="box-shoe2"></div>
+    </div>
+    </div>
+<footer>
+    <h2>SIGUEME</h2>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUdJREFUSEvdleExBEEQhb+LgAzIABEgAkTgRIAIEAEhyAARkAGXAREgAuq7mrmanZuZ29uq/XNTdX92ut/r97qnb8LIZzIyPptHsA38rLDNmEvgFNgHPoFH4C7k+f05YuQWGWzAR4PkDTgs3Jsj4TXwUCLw8j0oOAMEyk+MqfFLMgsE8yJzBX9JplUoO7VMdU8Ndb/BgUVxOYHenWQAfvOnfQfAfYPgJRAsQlICm7cbwHYGvg8V36a5OcH3QOCY1mlwqQfaMLR68bSwM4F5D5wSG7Q1QMlXsLiTWloVTsp53qwehEv2lCzy2xHw2gMwDbF61S9tgdqycxJu1iA5rjzM5jZ1bH1s2tU6F2EXFWNqCrQpLrQauK/2qgWe90BQK97rYY0vVnDHunlKCqah0TYtkrnAbGC6NlZhz+837x+tl+x1gka36B/CnzgZFPaBJAAAAABJRU5ErkJggg=="/>
+    <i class="fab fa-facebook"></i>
+</footer>    
+</body>
+</html>

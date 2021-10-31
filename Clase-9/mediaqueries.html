@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIAQUERIES</title>
+    <style>
+        div{
+            background: red;
+        }
+
+        /* PUNTOS DE QUIEBRE
+            MOBILE X2 == 0 > 320PX
+            !MOBILE SM == 320PX > 480PX
+            !MOBILE LARGE == 481PX > 680PX
+            !TABLET == 680PX > 840PX
+            !DESKTOP == 841PX > TAMAÑO DEL LAYOUT
+            DESKTOP XL == TAMAÑO DEL LAYOUT > TAMAÑO QUE DESEES
+        */
+
+        @media (min-width: 320px){
+            /* div{
+                background:orange;
+            } */
+        }
+        @media(max-width:980px){
+            /* div{
+                background:blue;
+            } */
+        }
+        @media(min-height:400px){
+            /* div{
+                background:blue;
+            } */
+        }
+        @media(max-height:800px){
+            div{
+                background:brown;
+            }
+
+        }
+        @media(orientation: landscape){
+            div{
+                color:white
+            }
+
+        }
+        @media(orientation: portrait){
+            div{
+                color:blue
+            }
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <div>
+        <header>
+            HEADER
+        </header>
+        <main>
+            MAIN
+        </main>
+        <footer>
+            FOOTER
+        </footer>
+    </div>
+</body>
+</html>

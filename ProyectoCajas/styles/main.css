@@ -1,0 +1,37 @@
+body{
+  font-family: roboto,sans-serif;
+}
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  height:138px;
+  border: solid black;
+  margin-bottom: 10px;
+  background:#00AAB5;
+}
+.container-logo{
+  font-weight: bold;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+h1{
+  position:absolute;
+  height: 75px;
+  width: 204px;
+  left: 26px;
+  top: 32px;
+  font-size:75px;
+}
+h2{
+
+  position:absolute;
+  width: 92px;
+  height: 25px;
+  left: 300px;
+  top: 65px;
+  font-size:21px;
+
+}

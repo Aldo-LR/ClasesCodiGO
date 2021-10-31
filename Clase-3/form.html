@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARIOS</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./main.css">
+
+  <!-- <style>
+    body{
+      background:blue;
+    }
+    div{
+      padding:20px;
+      margin: 20px;
+      background: red;
+    }
+    h2{
+      color:white;
+      font-family: arial;
+    }
+  </style> -->
+</head>
+<body>
+  <form method="GET">
+    <div style="background: green;" >
+      <h2>Nombre</h2>
+      <input name="name" type="text" placeholder="Ingresa tu nombre" required />
+    </div>
+    <hr>
+    <div class="bloque-2">
+      <h2>Correo</h2>
+      <input name="email" type="email" placeholder="Ingresa tu email" required />
+    </div>
+    <hr>
+    <div>
+      <h2>Edad</h2>
+      <input name="edad" type="number" placeholder="Ingresa tu numero" required />
+    </div>
+    <hr>
+    <div>
+      <h2>fecha de nacimiento</h2>
+      <input name="age" type="date" placeholder="Ingresa tu numero" required />
+    </div>
+    <hr>
+    <div>
+      <h2>HOBBIES</h2>
+      <input id="futbol" type="checkbox" name="hobbies" value="futbol"/>
+      <label for="futbol">Futbol</label>
+      <input id="voley" type="checkbox" name="hobbies" value="voley"/>
+      <label for="voley">Voley</label>
+    </div>
+    <div>
+      <h2>SEXO</h2>
+      <input id="sexom" type="radio" name="sexo" value="m"/>
+      <label for="sexom">Masculino</label>
+      <input id="sexof" type="radio" name="sexo" value="f"/>
+      <label for="sexof">Masculino</label>
+    </div>
+    <div>
+      <h2>PAIS</h2>
+      <select>
+        <option value="">Seleeciona tu pais</option>
+        <option value="peru">Peru</option>
+        <option value="argentina">Argentina</option>
+        <option value="colombia">Colombia</option>
+        <option value="venezuela">Venezuela</option>
+
+      </select>
+    </div>
+    <hr>
+    <div>
+      <button>ENVIAR</button>
+    </div>
+  </form>
+
+</body>
+</html>

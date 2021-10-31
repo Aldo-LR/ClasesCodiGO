@@ -1,0 +1,265 @@
+/*GLOBALS*/
+//ORGANISM
+body{
+  background-color:#EFF7E9;
+  color:#334680;
+  font-family: 'Roboto', sans-serif;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+//ORGANISM
+.wrapper {
+  box-sizing: border-box;
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin:auto;
+  max-width: 100vh;
+}
+
+/*HEADER*/
+.header__coverpage{ /*ORGANISM*/
+  position: relative;
+  background-image: url("http://picsum.photos/200/400?random=1");
+  margin:auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 138px;
+  width: 100%;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:8px;
+}
+.search{ /*MOLECULES*/
+  position: relative;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search i{ /*MOLECULES*/
+  position: absolute;
+  left: 22px;
+  padding-left: 6px;
+  color: gray;
+}
+
+/*ATOM*/
+.input {
+  border:1px solid grey;
+  border-radius:5px;
+  padding: 20px 25px;
+  &-title{
+    width: 600px;
+  }
+  &-city{
+    margin-left: 1px;
+    width: 220px;
+  }
+}
+/*ATOM*/
+.button{
+  min-width: 100px;
+  padding: 10px 15px;
+  border: 1px solid #1E86FF;
+  background-color: #1E86FF;
+  font-size: 14px;
+  position: absolute;
+  background: #1E86FF;
+  border-radius:4px;
+  color:white;
+  cursor: pointer;
+  margin-top:4px;
+  margin-right: 4px;
+  font-weight: bold;
+}
+/*ATOM*/
+.button-second{
+  padding: 5px 10px;
+  position:absolute;
+  border: 2px solid #334680;
+  background-color: white;
+  color:#334680;
+  margin-left: 6.9rem;
+  margin-top: 4.3rem;
+  font-weight: bold;
+}
+/*ORGANISM*/
+main{
+  flex-grow: 1;
+  display: flex;
+}
+/*ORGANISM*/
+.aside{
+  width: 500px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+
+}
+/*MOLECULE*/
+.aside i{
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 8px;
+  color: gray;
+
+}
+/*MOLECULE*/
+.checkbox{
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 14px;
+}
+/*MOLECULE*/
+.checkbox span{
+  margin-left: 0.5rem;
+}
+/*MOLECULE*/
+.container-radio{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+
+}
+/*MOLECULE*/
+.container-radio input{
+  margin-right: 0.7rem;
+  margin-top: 0.8rem;
+}
+/*ORGANISM*/
+.content-daily{
+  padding-top:30px;
+  width: 100%;
+  display: grid;
+  gap:25px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+/*ATOM*/
+.image{
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+}
+/*ORGANISM*/
+.daily-frontend,
+.senior-engineer,
+.software-engineer,
+.technology-solutions,
+.senior-python{
+  position:relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  height: 120px;
+  border-radius: 4px;
+  background:white;
+  align-items: center;
+  box-shadow: 1px 4px 3px rgba(0,0,0,0.1);
+  &:hover{
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.20);
+    transition: 0.4s ease-in-out;
+  }
+
+}
+/*MOLECULE*/
+.frontend-data{
+  display: flex;
+}
+/*ATOM*/
+.data{
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.data span{
+  font-size: 16px;
+}
+
+/*MOLECULE*/
+.frontend-info{
+position: relative;
+margin:5px;
+color: #b1b1b1;
+align-items: flex-end;
+top: 45px;
+font-size:12px;
+}
+
+h3,h2{  /*H ATOMS*/
+  font-size:12px;
+  font-weight:bold;
+}
+
+/*MOLECULE*/
+.search-pages{
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/*MOLECULE*/
+.search-pages-b{
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid #B7BCCE;
+  height: 30px;
+  width: 30px;
+  margin-right: 1rem;
+  cursor: pointer;
+  color:#B9BDCF;
+  border-radius: 5px;
+  &:hover{
+    color: white;
+    background: #1E86FF;
+    border: 1px solid #1E86FF;
+    font-weight: bold;
+  }
+}
+/*ATOM*/
+.footer{
+  display:flex;
+  align-items: center;
+  margin-top: 2rem;
+  color:#B9BDCF;
+}
+/*RESPONSIVE*/
+@media(max-width:768px){
+  main{
+    display: contents;
+  }
+  header{
+    display: contents;
+  }
+  .header__coverpage{
+    width: 90%;
+  }
+  .search{
+    padding: 1px;
+  }
+  .search i{
+    left:1px;
+    padding-left: 4px;
+
+  }
+
+  .input-title{
+    width: 350px;
+  }
+
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "codigo-clases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldo-LR/Clases_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aldo-LR/Clases_frontend/issues"
+  },
+  "homepage": "https://github.com/Aldo-LR/Clases_frontend#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
