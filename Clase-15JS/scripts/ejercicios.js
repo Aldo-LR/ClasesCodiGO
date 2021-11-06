@@ -1,8 +1,8 @@
+
 (function (){
 
   let a = parseFloat(prompt("ingresa el primer numero a"));
   let b = parseFloat(prompt("ingresa el segundo numero b"));
-
 
 function sumar(a,b){
   return a+b;
@@ -23,6 +23,7 @@ function dividir(a,b){
 function potencia(a,b){
   return a**b;
 }
+
 document.write("Los numeros ingresados fueron a " + a + " y b " + b + "<br>");
 document.write("la suma es: " + sumar(a,b) + "<br>");
 document.write("la resta es: " + restar(a,b) + "<br>");
@@ -36,3 +37,8 @@ console.log(multiplicar(a,b));
 console.log(dividir(a,b));
 console.log(potencia(a,b));
 })();
+
+
+
+
+

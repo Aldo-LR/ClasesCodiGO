@@ -31,3 +31,4 @@ fnOne()
 fnTwo()
 console.log('nameOneGlobal',nameOneGlobal);
 
+calculadora();
